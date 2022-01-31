@@ -1,0 +1,245 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7957173300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "InvestecTest.BeforeStep()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Sign up on the Investec public website and receive focus insight straight to your inbox.",
+        "description": "",
+        "id": "as-a-business-user,-i-would-like-to-search-for-cash-investment-rates-on-investec-site,-from-there-sign-up-to-receive-insight-to-your-inbox;sign-up-on-the-investec-public-website-and-receive-focus-insight-straight-to-your-inbox.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8935062600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User needs to be on the Investec public site",
+            "match": {
+              "location": "InvestecTest.userNeedsToBeOnTheInvestecPublicSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30224423900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on search Icon",
+            "match": {
+              "location": "InvestecTest.userClicksOnSearchIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 647966500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on search filed",
+            "match": {
+              "location": "InvestecTest.userClicksOnSearchFiled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239870900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User searches for Cash Investment Rates \"cash investment rates information\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cash investment rates information",
+                  "offset": 41
+                }
+              ],
+              "location": "InvestecTest.userSearchesForCashInvestmentRates(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384406000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User removes information from the text",
+            "match": {
+              "location": "InvestecTest.userRemovesInformationFromTheText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4585920200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Search button",
+            "match": {
+              "location": "InvestecTest.userClicksOnSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5199289900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User scrolls down and click on Understanding cash investment interest rates",
+            "match": {
+              "location": "InvestecTest.userScrollsDownAndClickOnUnderstandingCashInvestmentInterestRates()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1534723300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User scroll to SignUp and clicks on SignUp button",
+            "match": {
+              "location": "InvestecTest.userScrollToSignUpAndClicksOnSignUpButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1353023500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters first name \"Faith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Faith",
+                  "offset": 24
+                }
+              ],
+              "location": "InvestecTest.userEntersFirstName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 749600100,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertTrue(Assert.java:45)\r\n\tat org.testng.Assert.assertTrue(Assert.java:55)\r\n\tat Investec.co.za.StepsDef.InvestecTest.userEntersSurname(InvestecTest.java:57)\r\n\tat ✽.And User enters surname \"Fisher\"(InvestecUIsearch.feature:13)\r\n",
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User enters surname \"Fisher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fisher",
+                  "offset": 21
+                }
+              ],
+              "location": "InvestecTest.userEntersSurname(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User enters email address \"aubrey@kineticskunk.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aubrey@kineticskunk.com",
+                  "offset": 27
+                }
+              ],
+              "location": "InvestecTest.userEntersEmailAddress(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User selects Myself as an insight",
+            "match": {
+              "location": "InvestecTest.userSelectsMyselfAsAnInsight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User clicks on button Submit",
+            "match": {
+              "location": "InvestecTest.userClicksOnButtonSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User validates successful message",
+            "match": {
+              "location": "InvestecTest.userValidatesSuccessfulMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "close browser",
+            "match": {
+              "location": "InvestecTest.closeBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a business user, i would like to search for Cash Investment Rates on Investec site, from there sign up to receive insight to your inbox",
+    "description": "",
+    "id": "as-a-business-user,-i-would-like-to-search-for-cash-investment-rates-on-investec-site,-from-there-sign-up-to-receive-insight-to-your-inbox",
+    "keyword": "Feature",
+    "uri": "InvestecUIsearch.feature"
+  }
+]
